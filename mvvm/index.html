@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+     
+   <div id="box">
+      <p><span>姓名:</span> <input type="text" v-model="user.username"></p> 
+      <p><span>年龄:</span> <input type="text" v-model="user.age"></p> 
+        <p> <span>同步数据</span></p>
+        <p> <span>姓名:</span>{{user.username}}</p>
+
+        <p> <span>年龄:</span>{{user.age}}</p>
+   </div>
+   <script type="module" src="./js/index.js"></script>
+</body>
+</html>
